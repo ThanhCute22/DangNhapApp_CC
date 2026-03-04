@@ -16,5 +16,17 @@ namespace DangNhapApp_CC
         {
             InitializeComponent();
         }
+
+  
+
+        private void txtusername_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtpassword_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
