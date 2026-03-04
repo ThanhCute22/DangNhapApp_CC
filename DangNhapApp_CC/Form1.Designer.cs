@@ -43,7 +43,6 @@
             this.lblUserName.Size = new System.Drawing.Size(73, 16);
             this.lblUserName.TabIndex = 0;
             this.lblUserName.Text = "UserName";
-            this.lblUserName.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtusername
             // 
@@ -78,6 +77,7 @@
             this.btnlogin.TabIndex = 4;
             this.btnlogin.Text = "Đăng nhập";
             this.btnlogin.UseVisualStyleBackColor = true;
+            this.btnlogin.Click += new System.EventHandler(this.btnlogin_Click);
             // 
             // Form1
             // 
